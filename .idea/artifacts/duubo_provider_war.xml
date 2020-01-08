@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="duubo_provider:war">
+    <output-path>$PROJECT_DIR$/duubo_provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>duubo_provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="duubo_provider-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="duubo_provider:war exploded" />
+    </root>
+  </artifact>
+</component>
